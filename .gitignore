@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+/.idea
+/venv
+log.html
+output.xml
+report.html
