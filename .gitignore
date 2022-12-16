@@ -4,7 +4,9 @@
 
 /.idea
 /venv
+*.log
+selenium-screenshot-[!0].png
 log.html
 output.xml
 report.html
-*.png
+
