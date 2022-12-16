@@ -7,12 +7,12 @@ ${browser}  chrome
 
 *** Test Cases ***
 LoginTest
+    open browser    ${baseUrl}  ${browser}
     login
     close browser
 
 *** Keywords ***
 login
-    open browser    ${baseUrl}  ${browser}
     click link      css:a[class="ico-login"]
     input text      css:input#Email     Login
     input text      css:input#Password      Password
